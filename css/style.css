@@ -34,8 +34,9 @@ header{
 }
 #art-bg{
 	background-color: white;
+	border-radius: 8px;
 	font-family: 'Roboto', sans-serif;
-	margin-top: 80px;
+	margin-top: 120px;
 }
 #blocks{
 	background-color: yellow;
@@ -67,6 +68,10 @@ margin:20px 0px 0px 0px;
 }
 .grid4-style{
 	background-color: red;
+	border-radius: 9px;
+}
+.grid4-style>h2{
+	padding-left: 4px;
 }
 .grid4-style>article>figure>img{
 	width: 250px;
@@ -75,6 +80,10 @@ margin:20px 0px 0px 0px;
 }
 .grid4-style>article>figure>figcaption{
 	font-size: 20px;
+}
+.align{
+	margin: 0px;
+	margin-top: 35px;
 }
 .grid4-style>article>p{
 font-family: 'Gilda Display', serif;
@@ -97,7 +106,6 @@ footer>p>span>a{
 	padding-left: 30px;
 }
 #scroll-top{
-	background-color: red;
 	border-radius: 2px;
 	color: black;
 	text-decoration: none;
